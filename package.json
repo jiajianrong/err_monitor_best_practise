@@ -1,0 +1,14 @@
+{
+  "name": "err-minitor-nodejs",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "npx nodemon ./err_monitor_best_practise.js"
+  }
+}
